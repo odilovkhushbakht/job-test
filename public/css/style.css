@@ -1,0 +1,243 @@
+body {
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+.header_wrapper {
+    padding: 20px 0 20px 0;
+}
+
+.blog_wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.blog_wrapper .blog_actions {
+    flex-basis: 25%;
+    border: 2px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog_wrapper .blog_actions .search_blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog_wrapper .search_blog .search_field {
+    flex-basis: 80%;
+}
+
+.blog_wrapper .search_blog .search_field input {
+    width: 100%;
+    font-size: 15px;
+}
+
+.blog_wrapper .search_blog .search_button {
+    flex-basis: 17%;
+}
+
+.blog_wrapper .search_blog .search_button button {
+    font-size: 15px;
+    width: 100%;
+}
+
+.blog_wrapper .blog_actions .filter_blog {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog_wrapper .blog_actions .filter_blog .filter_category {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_wrapper .blog_actions .action {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blog_wrapper .blog_actions .action button {
+    font-size: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/*.blog_wrapper .filter_blog button {
+    text-transform: capitalize;
+    width: 100%;
+    padding: 7px;
+}*/
+
+.blog_wrapper .blog {
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.blog_wrapper .blog .blog_item {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.blog_wrapper .blog_item .blog_title {
+    padding-bottom: 8px;
+}
+
+.blog_wrapper .blog_item .blog_title a {
+    text-decoration: blink;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.blog_wrapper .blog_item .blog_date {
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+
+.blog_wrapper .blog_item .blog_author {
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.navigate {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.blog_detail_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog_detail_wrapper .blog_detail_created {
+    font-size: 14px;
+}
+
+.blog_detail_wrapper .blog_detal_text {
+    font-size: 18px;
+}
+
+.blog_detail_wrapper .blog_detail_author {
+    font-size: 14px;
+}
+
+.comment {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    padding-bottom: 50px;
+}
+
+.comment .comment_created {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.comment .comment_author {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.comment .comment_text {
+    font-size: 18px;
+}
+
+.blog_add {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog_add input,
+.blog_add textarea,
+.blog_add select {
+    font-size: 18px;
+}
+
+.blog_add>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_add .full_name input,
+.blog_add .full_name #author_list {
+    margin-bottom: 20px;
+}
+
+.blog_add .category {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.blog_add .category #category_list,
+.blog_add .category #category_new {
+    margin-bottom: 20px;
+}
+
+.blog_add .category button {
+    align-self: flex-start;
+    font-size: 18px;
+    padding: 8px 15px 8px 15px;
+}
+
+.category_add div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.category_add #category_name {
+    font-size: 18px;
+    max-width: 300px;
+}
+
+.category_add label {
+    max-width: 300px;
+}
+
+.category_add button {
+    max-width: 150px;
+}
+
+.author_add .author_add_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+}
+
+.author_add .author_add_wrapper input {
+    font-size: 18px;
+}
+
+.author_add .author_add_wrapper div {
+    display: flex;
+    flex-direction: column;
+}
+
+.author_add .author_add_wrapper button {
+    max-width: 150px;
+}
